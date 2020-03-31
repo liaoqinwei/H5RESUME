@@ -71,7 +71,7 @@ let loadingRender = (function () {
             }
             alert('非常遗憾，当前您的网络状况不佳，请稍后再试!');
             window.location.href = 'http://www.qq.com';//=>此时我没不应该继续加载页面，而是让其关掉页面或者跳转的其他页面
-        }, 1000 * 120);
+        }, 1000 * 1200);
     };
 
     //=>DONE:完成
